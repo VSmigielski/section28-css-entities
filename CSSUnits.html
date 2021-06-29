@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* absolute is in pixels/pts/mm/inches/piccas/cm */
+        #text1 {
+            font-size: 1px;
+        }
+        #text2 {
+            font-size: 1pt;
+        }
+        #text3 {
+            font-size: 1mm;
+        }
+        #text4 {
+            font-size: 1pc;
+        }
+        #text5 {
+            font-size: 1cm;
+        }
+        #text6 {
+            font-size: 1in;
+        }
+
+        /* relative is in vh/vw/percentage/em/rem/v-min/v-max/ex/ch */
+        #div1 {
+            font-size: 10px;
+        }
+        /* 2x current font-size */
+        #span1 {
+            font-size: 2em;
+        }
+        #div2 {
+            font-size: 10px;
+        }
+        /* Based on the last x's font-size */
+        #span2 {
+            font-size: 2ex;
+        }
+        #div3 {
+            font-size: 10px;
+        }
+        /* Based on the character 0 font-size */
+        #span3 {
+            font-size: 2ch;
+        }
+        body {
+            font-size: 10px;
+        }
+        /* 4rem becomes 100px */
+        #div4 {
+            font-size: 4rem;
+        }
+        /* Based on the root size of an element */
+        #span4 {
+            font-size: 4rem;
+        }
+        #div5 {
+            font-size: 4vw;
+        }
+        /* Based on the overall size of the viewport */
+        #span5 {
+            font-size: 4vw;
+        }
+        #div6 {
+            font-size: 4vh;
+        }
+        /* Based on the overall size of the viewport */
+        #span6 {
+            font-size: 4vh;
+        }
+
+        #div7 {
+            font-size: 4vmin;
+        }
+        /* Based on the overall minimum size of the viewport */
+        #span7 {
+            font-size: 4vmin;
+        }
+
+        #div8 {
+            font-size: 4vmax;
+        }
+        /* Based on the overall maximum size of the viewport */
+        #span8 {
+            font-size: 4vmax;
+        }
+        #div9 {
+            font-size: 100px;
+        }
+        /* Based on the root size of an element */
+        #span9 {
+            font-size: 50%;
+        }
+
+    </style>
+    <title>CSS Units</title>
+</head>
+<body>
+    <p id="text1">Pixels</p>
+    <p id="text2">Points</p>
+    <p id="text3">Millimeters</p>
+    <p id="text4">Piccas</p>
+    <p id="text5">Centimeters</p>
+    <p id="text6">Pixels</p>
+    <p id="text7">Points</p>
+    <p id="text8">Millimeters</p>
+    <p id="text9">Piccas</p>
+    <p id="text10">Centimeters</p>
+
+    <div id="div1">Div with some example text in it. <span id="span1">More example text.</span></div>
+    <div id="div2">Div with some example text in it. <span id="span2">More example text.</span></div>
+    <div id="div3">Div with some example text in it. <span id="span3">More example text.</span></div>
+    <div id="div4">Div with some example text in it. <span id="span4">More example text.</span></div>
+    <div id="div5">Div with some example text in it. <span id="span5">More example text.</span></div>
+    <div id="div6">Div with some example text in it. <span id="span6">More example text.</span></div>
+    <div id="div7">Div with some example text in it. <span id="span7">More example text.</span></div>
+    <div id="div8">Div with some example text in it. <span id="span8">More example text.</span></div>
+    <div id="div9">Div with some example text in it. <span id="span9">More example text.</span></div>
+</body>
+</html>
